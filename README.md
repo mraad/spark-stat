@@ -21,7 +21,7 @@ val values = Seq(
 val stats = sc.parallelize(values).stats()
 ```
 
-Given Points.csv
+Given for example points.csv
 
 | ID | X | Y | W | 
 |----|---|---|---|
